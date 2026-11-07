@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>resultado</title>
+</head>
+<body>
+
+    <h2>Resultado del tratamiento</h2>
+
+    <ul>
+        <li th:each="r : ${resultado}" th:text="${r}"></li>
+    </ul>
+
+</body>
+</html>
